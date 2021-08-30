@@ -1,4 +1,3 @@
-import { useImperativeHandle } from "react"
 import "./NewTodo.css"
 
 function NewTodo ( {todo, removeTask, handleToggle} ) {
