@@ -1,0 +1,52 @@
+.heading{
+    background-color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: inherit;
+    max-width: 50rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 6.5rem;
+    color: #c5b5c9;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #9F9AA4;
+}
+
+.todo-list{
+    list-style-type: none;
+}
+
+.text-span{
+    margin-left: 10px;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.del-btn{
+    background-color: rgb(230, 49, 49);
+    border-radius: 5px;
+    outline: none;
+    border: transparent;
+    padding: 4px;
+}
+
+.del-btn:active{
+    transform: translate3d( 0.5, 0.5, 1);
+}
+
+
