@@ -16,8 +16,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 8px;
-    padding-bottom: 15px;
+    padding: 0.8rem 1rem;
+    background-color: rgb(216, 225, 228);
+    border-radius: 2rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -26,9 +28,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 8px;
-    padding-bottom: 15px;
-    transition: box-shadow .3s ease;
+    padding: 0.8rem 1rem;
+    background-color: rgb(216, 225, 228);
+    border-radius: 2rem;
+    margin-bottom: 1rem;
 }
 
 .todo-item .text {
