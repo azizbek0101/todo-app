@@ -32,6 +32,13 @@ h2 {
     }
 }
 
+@media (max-width: 530px) {
+    .container {
+        padding: 0 3rem;
+    }
+}
+
+
 .todo-list{
     list-style-type: none;
 }

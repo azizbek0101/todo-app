@@ -46,11 +46,36 @@
     box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #888;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 
 html {
     font-size: 62.5%;
     height: 100vh;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 55%;
+  }
 }
 
 @media (max-width: 450px) {
